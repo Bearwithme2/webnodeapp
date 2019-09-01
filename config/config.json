@@ -1,0 +1,22 @@
+{
+	"services": {
+		"ImageService": {
+			"path": "Model/Services/ImageService.php"
+		},
+		"DogService": {
+			"path": "Model/Services/DogService.php"
+		}
+	},
+	"controllers": {
+		"Controller": {
+			"className": "Model\\Controllers\\Controller",
+			"path": "Model/Controller.php",
+			"route": "/"
+		},
+		"WalkController": {
+			"className": "Model\\Controllers\\WalkController",
+			"path": "Model/WalkController.php",
+			"route": "/walk"
+		}
+	}
+}
